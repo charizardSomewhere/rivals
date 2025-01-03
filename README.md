@@ -1,9 +1,14 @@
 # Assist in locating the enemy in Roblox Rivals
 
 ## collect screenshots
-
+-program takes screenshot per every second
+-get into a game and find the enemy
+-once game finished, look through screenshots and delete ones without heads
 ## let AI learn from the screenshots
 roboflow
+-basically take all the newly aquired images
+-annotate them in roboflow
+-put them into dataset to further train the model
 
 ## run the model to infer
 ### online
